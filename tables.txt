@@ -1,0 +1,36 @@
+create database proj;
+
+use proj;
+
+create table User
+{
+	FirstName varchar(50),
+	LastName varchar(50),
+	UserName varchar(50) Primary key,
+	Password varchar(50),
+	Contact varchar(50),
+	Email varchar(50),
+	DOB date,
+	Gender varchar(50),
+	State varchar(50),
+	City varchar(50),
+	Role varchar(50),
+	Status varchar(50)
+}
+
+
+
+create table Property
+(
+	ProprtyID int primary key auto_increment,
+	Category varchar(25),
+	Type varchar(25),
+	WantTo varchar(25),
+	Price int,
+	Size int,
+	State varchar(25),
+	City varchar(25),
+	Username varchar(25)
+);
+
+	

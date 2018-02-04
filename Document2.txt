@@ -1,0 +1,6 @@
+<td>Category</td><td>$Category</td></tr>");
+						echo("<tr><td>Type</td><td>$Type</td></tr>");
+						echo("<tr><td>State</td><td>$State</td></tr>");
+						echo("<tr><td>City</td><td>$City</td></tr>");
+						echo("<tr><td>Size</td><td>$Size</td></tr>");
+						echo("<tr><td>Price</td><td>$Price</td></tr>");

@@ -1,0 +1,11 @@
+create table Property
+(
+	Category varchar(25),
+	Type varchar(25),
+	WantTo varchar(25),
+	Price int,
+	Size int,
+	State varchar(25),
+	City varchar(25),
+	Username varchar(25)
+);
